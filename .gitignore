@@ -1,2 +1,14 @@
 ### IntelliJ IDEA ###
 .idea
+
+_site/*
+_theme_packages/*
+
+Thumbs.db
+.DS_Store
+
+!.gitkeep
+
+.rbenv-version
+.rvmrc
+/vendor
