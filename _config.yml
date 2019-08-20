@@ -451,8 +451,9 @@ gitalk:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-baidushare:
-  type: button
+# 本地支持，github pages不支持
+#baidushare:
+#  type: button
 
 # Share
 #jiathis:
@@ -548,7 +549,7 @@ busuanzi_count:
   site_pv_footer:
   # custom pv span for one page only
   page_pv: true
-  page_pv_header: <i class="fa fa-file-o"></i>
+  page_pv_header: <i class="fa fa-eye"></i>
   page_pv_footer:
 
 
