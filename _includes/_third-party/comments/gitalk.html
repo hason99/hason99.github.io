@@ -16,7 +16,7 @@
         repo: '{{ site.gitalk.repo }}',
         owner: '{{ site.gitalk.owner }}',
         admin: ['{{ site.gitalk.owner }}'],
-          id: md5(window.location.pathname),
+          id: md5('{{ page.url }}'),//page.url等同window.location.pathname经过urlEncode
         labels: ['gitalk'],
         perPage: 50,
         distractionFreeMode: true
